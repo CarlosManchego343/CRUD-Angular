@@ -3,3 +3,9 @@
     Apellido: {{ apellido }}
     Edad: {{ edad }}
 </p>
+
+<!-- Se hace interpolación con input -->
+<div (keyup)="0">
+    <input #entrada />
+    {{ entrada.value }}
+</div>
