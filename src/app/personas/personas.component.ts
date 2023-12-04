@@ -8,7 +8,7 @@ import { Component } from "@angular/core";
 export class PersonasComponent {
     deshabilitar = false;
     mensaje: string = "No se a agregado ninguna persona"
-    titulo = ""
+    titulo = "ingeniero"
 
     agregarPersona() {
         this.mensaje = "Persona agregada"
