@@ -5,7 +5,7 @@
             <button class="btn btn-primary" [disabled]="deshabilitar"
             (click)="agregarPersona()"
             >Agregar persona</button>
-            <p>{{ mensaje }}</p>
+            <p *ngIf="mostrar">{{ mensaje }}</p>
             <app-persona></app-persona>
             
             <label>Titulo Persona</label>
